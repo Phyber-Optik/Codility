@@ -13,7 +13,7 @@ public:
             else {
                 swap(S[L++], S[R]);
             }
-            R++;
+            R++;    
         }
         return L;
     }
